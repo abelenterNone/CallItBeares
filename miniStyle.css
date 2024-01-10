@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing:border-box ;
+  text-decoration: none;
+ font-family: 'Courier New', Courier, monospace;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding: var(--scroll-padding, 5rem);
+}
+
+
+.Title{
+  background:transparent;
+  width: 70%;
+  height: 150px;
+  margin: 0 auto;
+  display: flex;
+  justify-items: center;
+  align-items: center ;
+}
+.TitleLogo{
+  background-image: url(bb.png);
+  width: 30%;
+  height: 150px;
+  background-size: 100% 100%;
+  
+}
+.TitleMenu{
+  width: 70%;
+  height: 150px;
+  display: flex;
+  justify-items: center;
+  align-items: center ;
+}
+.TitleOption {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  font-size: 1.5rem;
+  background: var(--clr-primary-400);
+}
+
+.ttlist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  list-style: none;
+}
+.ttlist {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  list-style: none;
+  
+}
+
+.ttlist a {
+ 
+  border-radius: 5px;
+  background-color: transparent;
+  padding :10px;
+  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-decoration: none;
+  cursor:pointer;
+  transition: background-color 1s;
+}
+.ttlist li a {
+  font-weight: bold;
+}
+.ttlist a:hover{
+  background-color:rgba(255, 255, 255, 0.5) ;
+}
+.nav-list a.active{
+  opacity: 1s;
+}
+.infoPart{
+  background:#211C21;
+  color:white;
+  width: 70%;
+  height: 1500px;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: flex;
+  
+}
+.infoDisplay{
+  width: 80%;
+  height:1500px;
+  background-color: transparent;
+  padding: 40px;
+  margin: 20px;
+  
+ 
+}
+
+.menuDisplay{
+  padding: 40px;
+  width: 20%;
+  height:1500px;
+  background-color: transparent;
+  font-weight: 50px;
+  
+}
+.menuDisplay p {
+  padding :10px ;
+  
+
+}
+.menuBox{
+  position: sticky;
+  top: 20px;
+  border :5px solid rgb(137, 129, 129);
+  width: 200px;
+  border-radius: 10px;
+  background: var(--clr-primary-400);
+
+}
+.menuBox a{
+  text-decoration: none;
+  cursor:pointer;
+  color: white;
+}
+.intro,.Habitat,.characteristic,.behavior,.role{
+  margin: 20px;
+
+}
